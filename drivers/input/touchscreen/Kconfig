@@ -1037,4 +1037,8 @@ config TOUCHSCREEN_SYNAPTICS
 	help
 	  This enables support for Synaptics over I2C based touchscreens.
 	  
+config TOUCHSCREEN_SWEEP2SLEEP
+	bool "Enable kernel support for Sweep2Sleep"
+	default n
+
 endif
