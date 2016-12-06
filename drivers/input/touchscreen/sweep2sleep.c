@@ -691,9 +691,6 @@ static int __init sweep2sleep_init(void)
 		pr_warn(LOGTAG"%s: sysfs_create_file failed for sweep2sleep_implemented\n", __func__);
 		goto err4;
 	}
-
-	// Initialize delayed work for status bar timer
-	INIT_DELAYED_WORK_DEFERRABLE(&statusBarTimer, statusBarTimer_work);
 	
 	return 0;
 
