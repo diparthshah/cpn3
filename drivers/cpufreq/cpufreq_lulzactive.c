@@ -45,6 +45,7 @@
 #define LOGD(fmt...) printk(KERN_DEBUG "[lulzactive] " fmt)
 
 static void (*pm_idle_old)(void);
+void (*pm_idle)(void);
 static atomic_t active_count = ATOMIC_INIT(0);
 
 struct cpufreq_lulzactive_cpuinfo {
