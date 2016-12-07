@@ -33,6 +33,10 @@
 #include <linux/earlysuspend.h>
 #include <asm/cputime.h>
 #include <linux/suspend.h>
+#include <linux/module.h>
+
+
+#define cputime64_sub(__a, __b)		((__a) - (__b))
 
 #define LULZACTIVE_VERSION	(2)
 #define LULZACTIVE_AUTHOR	"tegrak"
