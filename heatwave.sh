@@ -9,7 +9,7 @@ export ARCH=arm64
 export SUBARCH=arm64
 export KBUILD_BUILD_USER="Kish-Patel"
 export KBUILD_BUILD_HOST="J.A.R.V.I.S"
-export CROSS_COMPILE=/mnt/kernel_stuff/aarch64-linux-android-4.9/bin/aarch64-linux-android-
+export CROSS_COMPILE=aarch64-linux-android-
 
 # Colors
 Black='\e[0;30m'        # Black
