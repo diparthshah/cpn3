@@ -31,6 +31,7 @@
 #include <linux/slab.h>
 #include <asm/cputime.h>
 #include <linux/sched/rt.h>
+#define CPUFREQ_RELATION_C 2
 
 static int active_count;
 
